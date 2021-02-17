@@ -1,6 +1,5 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "react-three-fiber-example-fps",
   "icons": [
     {
       "src": "favicon.ico",

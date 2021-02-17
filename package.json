@@ -1,8 +1,30 @@
 {
   "name": "react-three-fiber-example-fps",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "An example of a first-person shooter in react-three-fiber",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benjiJanssens/react-three-fiber-example-fps.git"
+  },
+  "keywords": [
+    "react-three-fiber",
+    "react",
+    "reactjs",
+    "three",
+    "threejs",
+    "fps"
+  ],
+  "author": "Benjamin Janssens <benji.janssens@gmail.com> (https://benjijanssens.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benjiJanssens/react-three-fiber-example-fps/issues",
+    "email": "benji.janssens@gmail.com"
+  },
   "dependencies": {
+    "@react-three/cannon": "^0.5.5",
+    "@react-three/drei": "^2.2.22",
+    "@react-three/postprocessing": "^1.5.1",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.1",
@@ -13,6 +35,8 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.2",
+    "react-three-fiber": "^5.3.18",
+    "three": "~0.124.0",
     "typescript": "^4.1.5",
     "web-vitals": "^1.1.0"
   },
